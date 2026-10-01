@@ -30,11 +30,6 @@ public class HelloController {
     public String status() {
         return "Application is running on " + LocalDate.now().toString();
     }
-    @GetMapping("/info")
-    public String info() {
-        return "This is a Spring Boot products application.";
-    }
 
-    // TODO (Activity 3): add your /goodbye endpoint here.
 
 }
