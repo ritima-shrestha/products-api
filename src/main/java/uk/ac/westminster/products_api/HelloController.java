@@ -24,7 +24,7 @@ public class HelloController {
 
     @GetMapping("/goodbye")
     public String goodbye() {
-        return "Goodbye from Spring Boot!";}
+        return "Goodbye from SpringBoot!";}
 
     @GetMapping("/status")
     public String status() {
